@@ -1,0 +1,131 @@
+:root {
+  --color1: #ffcdb8;
+  --color2: #fdeecf;
+  --color3: #c8c696;
+  --color4: #97bea9;
+  --color5: #37260cda;
+}
+
+body {
+  margin: 0;
+  font-family: "Arimo", sans-serif;
+}
+
+.bg1 {
+  background-color: var(--color2);
+}
+
+.bg3 {
+  background-color: var(--color1);
+  border: 7px solid var(--color4); 
+  border-radius: 20px;
+
+  button {
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+  img {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    border: 7px solid #97bea9; 
+    border-radius: 50%;
+  }
+}
+
+.bg2 {
+  background-color: var(--color1);
+  background-repeat: no-repeat;
+  border: 7px solid var(--color4);
+  padding: 1rem;
+  border-radius: 30px;
+  img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border: 7px solid #97bea9; 
+    border-radius: 50%;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+}
+
+.navbar .custombg {
+  background-color: var(--color5);
+}
+
+.custombg {
+  background-color: var(--color5);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color1);
+
+  &:hover {
+    color: var(--color4);
+  }
+}
+
+footer {
+  p {
+    color: var(--color1);
+  }
+}
+
+.navbutton {
+  color: #fdeecf;
+  &:hover {
+    scale: 0.9;
+    border-color: var(--color1);
+    background-color: var(--color4);
+    color: var(--color5);
+  }
+}
+
+input {
+  &:hover {
+    scale: 0.95;
+  }
+}
+
+i {
+  color: var(--color2);
+  &:hover {
+    scale: 1.4;
+    color: var(--color5);
+  }
+}
+
+.formbutton {
+  background-color: var(--color5);
+  color: var(--color2);
+
+  &:hover {
+    background-color: var(--color4);
+    border-color: var(--color4);
+    color: var(--color5);
+    scale: 0.9;
+  }
+}
+
+dialog {
+  color: var(--color5);
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 4rem;
+  width: 50%;
+  background: linear-gradient(to bottom, rgba(255, 165, 165, 0.078), rgba(255, 143, 143, 0.3)), var(--color1);
+
+  button {
+    font-size: 1rem;
+    border-radius: 10px;
+  }
+}
+
+
